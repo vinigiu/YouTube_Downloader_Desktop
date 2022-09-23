@@ -8,7 +8,7 @@ window.addEventListener('load', ()=>{
         let link = document.getElementById('link').value
         ytdl(link)
 
-        alert("Seu vídeo está disponível no caminho 'resources/app/downloaded-videos/' no diretório do YouTube Downloader")
+        alert("Seu vídeo está disponível no caminho 'downloaded-videos/' no diretório do YouTube Downloader")
 
         linkInput.value = ''
     })
