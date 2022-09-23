@@ -1,0 +1,16 @@
+{
+  "name": "youtubedownloader",
+  "version": "0.0.0",
+  "private": true,
+  "main":"electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npx electron-packager . --icon assets/baixar512.ico --out=pacote"
+  },
+  "dependencies": {
+    "ytdl-core": "^4.11.2"
+  },
+  "devDependencies": {
+    "electron": "^20.2.0"
+  }
+}
